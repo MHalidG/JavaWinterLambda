@@ -28,8 +28,13 @@ public class Lambda01 {
 	 */
 
         List<Integer> sayi = new ArrayList<>(Arrays.asList(34, 22, 16, 11, 35, 20, 63, 21, 65, 44, 66, 64, 81, 38, 15));
+        List<Integer> yas = new ArrayList<>(Arrays.asList(34, 22, 16, 11, 35, 20, 63, 21, 65, 44, 66, 64, 81, 38, 15));
+        List<String> krktr = new ArrayList<>(Arrays.asList("Selam","Cihangir","Usta","Melik","Cahit","Levent","Timur","Irmak","Tseyna","Luminita","Durant","Cesur"));
 
-        System.out.println(sayi);
+        strPrnt(krktr);
+
+
+      /*  System.out.println(sayi);
         printElStructured(sayi);
         System.out.println();
         printElFunctional(sayi);
@@ -50,7 +55,7 @@ public class Lambda01 {
         printCiftEl34Functional(sayi);
 
         System.out.println("\n sa bruda");
-        obuyukveya(sayi);
+        obuyukveya(sayi);*/
     }
 
     //Task: Structured programing kullanarak list elemanlarini
@@ -68,6 +73,8 @@ public class Lambda01 {
         sayi.stream().forEach(t -> System.out.print(t + " "));
     }
 
+public static void strPrnt(List<String> krktr){
+                krktr.stream().forEach(t-> System.out.print(t+" Basrol "));}
 
 /*
         stream() : datalari yukaridan asagiya akis sekline getirir.
@@ -81,6 +88,8 @@ public class Lambda01 {
          Lambda Expression-->(parameter list) -> {action body}
              Parameter list: Fonksiyonun parametreleri tanımlanır. Hiç parametre geçirmeden boşta olabilir.
              -> Arrow-token: Argüman listesi ile expression gövdesini birbirine bağlamak için kullanılır.
+
+
 
             Bir kod bloğundan oluşan bir body...
             Bu tip lambda body, block body olarak bilinir. Blok gövdesi, lambda gövdesinin birden çok ifade içermesine izin verir.

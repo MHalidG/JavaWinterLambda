@@ -15,7 +15,14 @@ public class Lambda02 {
         karelerinEnbuyugu(sayi);
         System.out.println("\n   ***   ");
         elTopla(sayi);
+      ciftCarp(sayi);
+
+
+
+
+
     }
+
         // Task : Functional Programming ile listin cift elemanlarinin  karelerini ayni satirda aralarina bosluk bırakarak print ediniz
     public static void ciftKarePrint(List<Integer> sayi) {
         sayi.
@@ -145,8 +152,6 @@ a ilk degerinden sonraki her değeri action(işlem)'dan alır
             //sorted() => Doğal düzene göre sıralanmış, bu akışın elemanlarında oluşan bir akış döndürür.
             //Sorted() methodu tekrarlı kullanılırsa en son kullanılan aktif olur.
         }
-
-        // Task : list'in tek  elemanlarinin kareleri ni buykten kucuge  print ediniz.
 
         public static void tekKareBkPrint(List<Integer> sayi) {
             sayi.//akıs kaynagı

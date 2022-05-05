@@ -123,6 +123,8 @@ public static void wleBaslirMi(List<String> menu){
                 stream().
                 sorted(Comparator.comparing(t -> t.toString().length()).reversed()).limit(1));//limit(a) akisdan cikan
         //elemanlari
+
+
     }
 
 

@@ -7,7 +7,7 @@ public class Universite {
                notOrt (int)
                olan POJO clas craete edip main method içinde 5 arklı obj'den List create ediniz.
                pojo class: plan old java object --> model classı
-​
+
                private veriable
                constructor
                getter setter
